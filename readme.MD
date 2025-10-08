@@ -1,16 +1,16 @@
 # AWS EC2 instance
- you can create ec2 instance using this module
+ you can create ec2-instance using this module
 
  ## inputs
 
  
- -ami_id(optional)- AMI Id that need to be used by instance. Default is devops-practice.
+* ami_id(optional)- AMI Id that need to be used by instance. Default is devops-practice.
 
-- Instance_type (optional) - Instance type to be used by instance.Valid values are t3.micro, t3.small, t3,medium. default is t3.micro
+* Instance_type (optional) - Instance type to be used by instance.Valid values are t3.micro, t3.small, t3,medium. default is t3.micro
 
--sg_ids(required)- a list of security Group IDS to attach instance
+* sg_ids(required)- a list of security Group IDS to attach instance
 
-- tags(required) - a map of tags to be associated with instance
+* tags(required) - a map of tags to be associated with instance
 
 ## outputs
 
